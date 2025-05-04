@@ -22,6 +22,8 @@ public class CameraOrbit : MonoBehaviour {
         var angles = transform.eulerAngles;
         x = angles.y;
         y = angles.x;
+
+       
     }
 
     float prevDistance;
